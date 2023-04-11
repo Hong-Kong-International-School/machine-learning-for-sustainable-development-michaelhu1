@@ -8,6 +8,6 @@ The problem: People are too lazy to properly recycle their waste. A lot of it ha
 Required tools:
 PC <br> 
 Python (anaconda) <br>
-WSL <br>  
+WSL <br>
 CudaCNN <br> 
 Webcam <br> 
