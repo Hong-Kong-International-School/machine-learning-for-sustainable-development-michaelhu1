@@ -7,7 +7,7 @@ The problem: People are too lazy to properly recycle their waste. A lot of it ha
 
 Required tools:
 PC\
-Python (anaconda) 
-WSL 
-CudaCNN 
-Webcam 
+Python (anaconda)\ 
+WSL\ 
+CudaCNN\ 
+Webcam\
