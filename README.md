@@ -6,8 +6,9 @@ The problem: People are too lazy to properly recycle their waste. A lot of it ha
 [Kaggle Notebook](https://www.kaggle.com/michaelhu12/machine-learning-trash-can/edit)
 
 Required tools:
-PC <br> 
-Python (anaconda) <br>
-WSL <br>
-CudaCNN <br> 
+Raspberry Pi <br> 
+Python (Version 3.7 - 3.9) <br>
+LED lights <br>
+Camera <br> 
+Roboflow (data labelling) <br> 
 Webcam <br> 
