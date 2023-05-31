@@ -23,9 +23,9 @@ from tflite_support.task import vision
 from gpiozero import LED
 import utils
 
-paper_led = LED(9)
-plastic_led = LED(10)
-can_led = LED(11)
+paper_led = LED(1)
+plastic_led = LED(2)
+can_led = LED(4)
 
 def display_detect(result):
     detected = []
