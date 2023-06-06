@@ -1,7 +1,7 @@
-# System Details:
-The SDGs I will be focusing on are SDG 11, 13, and 14.
+#Mission:
+There are two reasons why someone would not properly recycle their waste, either they are too lazy to properly recycle their waste, or they do not know where A lot of it has to be manually sorted. What happens when people decide not to manually sort their waste anymore? This object detection model will be able to classify different types of recyclable trash and output what type of trash it is. This model can be applied in many different scenarios such as an automatic sorting recycling bin.
 
-The problem: People are too lazy to properly recycle their waste. A lot of it has to be manually sorted. What happens when people decide not to manually sort their waste anymore? This object detection model will be able to classify different types of recyclable trash and output what type of trash it is. This model can be applied in many different scenarios such as an automatic sorting recycling bin.
+The SDGs this projecrbe focusing on are SDG 11: sustainable cities and communities and SDG 12: responsible consumption and production
 
 ## Required tools
 Raspberry Pi <br> 
