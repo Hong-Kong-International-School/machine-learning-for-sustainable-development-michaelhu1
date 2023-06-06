@@ -17,7 +17,7 @@ The system runs on Python utilising the OpenCV library on a Raspberry Pi. After 
 
 ## How to install the system
 Upload the run.py and model.tflite files within the repository along with installing the required packages on the Raspberry Pi.  
-Packages that need to be installed include: cv2 and tflite_support. Both these packages can be installed using pip.  
+Packages that need to be installed include: cv2, tflite_support, and RPi.GPIO. These packages can be installed using pip.  
 
 ## How to use the system
 Make sure a Raspberry Pi compatable webcam is plugged into the Pi.  
