@@ -20,12 +20,19 @@ import cv2
 from tflite_support.task import core
 from tflite_support.task import processor
 from tflite_support.task import vision
-from gpiozero import LED
+import RPi.GPIO as GPIO
 import utils
+from time import sleep
 
-paper_led = LED(1)
-plastic_led = LED(2)
-can_led = LED(4)
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(2,GPIO.OUT) #Can
+GPIO.setup(3,GPIO.OUT) #Paper
+GPIO.setup(4,GPIO.OUT) #plastic
+
+GPIO.output(2,GPIO.LOW)
+GPIO.output(3,GPIO.LOW)
+GPIO.output(4,GPIO.LOW)
 
 def display_detect(result):
     detected = []
@@ -40,22 +47,17 @@ def display_detect(result):
     if len(detected) > 0:
         index = detected[0]
         if index == 0:
-            plastic_led.on()
-            paper_led.off()
-            can_led.off()
+           GPIO.output(2,GPIO.HIGH)
+           GPIO.output(3,GPIO.LOW)
+           GPIO.output(4,GPIO.LOW)
         elif index == 1:
-            plastic_led.off()
-            paper_led.off()
-            can_led.on()
+            GPIO.output(2,GPIO.LOW)
+            GPIO.output(3,GPIO.LOW)
+            GPIO.output(4,GPIO.HIGH)
         elif index == 2:
-            plastic_led.off()
-            paper_led.on()
-            can_led.off()
-
-
-    
-    
-            
+           GPIO.output(2,GPIO.LOW)
+           GPIO.output(3,GPIO.HIGH)
+           GPIO.output(4,GPIO.LOW)
 
 
 def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
