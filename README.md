@@ -4,17 +4,17 @@ There are two reasons why someone would not properly recycle their waste, either
 The SDGs this project will be focusing on are SDG 11: sustainable cities and communities and SDG 12: responsible consumption and production. This project serves as a proof of concept that AI can be used to sort trash and that  
 
 ## Required tools
-Raspberry Pi <br> 
-HDMI - HDMI cable <br>
-Monitor <br>
-Keyboard & Mouse <br>
-Micro SD card <br>
-MicroSD to SD card adapter <br>
-Ethernet Cable <br>
-LED lights <br> 
-Small bread board <br>
-Resistors <br>
-Webcam <br> 
+1x Raspberry Pi <br> 
+1x HDMI - HDMI cable <br>
+1x Monitor <br>
+1x Keyboard & Mouse <br>
+1x Micro SD card <br>
+1x MicroSD to SD card adapter <br>
+1x Ethernet Cable <br>
+3x LED lights <br> 
+1x Small bread board <br>
+3x Resistors <br>
+1x Webcam <br> 
 Python (Version 3.7 - 3.9) <br>
 
 ## What does the system do
