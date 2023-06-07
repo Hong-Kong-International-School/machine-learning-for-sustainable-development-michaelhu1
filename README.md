@@ -3,7 +3,7 @@ There are two reasons why someone would not properly recycle their waste, either
 
 The SDGs this project will be focusing on are SDG 11: sustainable cities and communities and SDG 12: responsible consumption and production. This project serves as a proof of concept that AI can be used to sort trash and that  
 
-## Required tools
+## Required materials
 1x Raspberry Pi <br> 
 1x HDMI - HDMI cable <br>
 1x Monitor <br>
